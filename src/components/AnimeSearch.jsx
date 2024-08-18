@@ -13,7 +13,7 @@ const AnimeSearch = () => {
   useEffect(() => {
     const handler = setTimeout(() => {
       setDebouncedQuery(query);
-    }, 500);
+    }, 400);
 
     return () => {
       clearTimeout(handler);
