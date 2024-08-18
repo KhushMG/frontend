@@ -19,7 +19,7 @@ export async function POST(req) {
     }
   );
 
-  if (!response.ok) { 
+  if (!res.ok) { 
     return NextResponse.json({error: "failed to fetch recommendations"}, {status:500});
   }
 
