@@ -87,6 +87,7 @@ const AnimeSearch = () => {
   // Handle suggestion click
   const handleSuggestionClick = (suggestion) => {
     const selectedAnimeName = suggestion.Name || suggestion["English name"];
+    setLoading(false)
     setQuery(selectedAnimeName);
     setSuggestions([]);
     fetchRecommendations(selectedAnimeName);
