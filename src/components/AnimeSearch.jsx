@@ -35,6 +35,7 @@ const AnimeSearch = () => {
 
           if (res.ok) {
             const data = await res.json();
+            setLoading(false);
             setSuggestions(data);
           } else {
             setSuggestions([]);
