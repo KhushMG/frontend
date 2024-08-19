@@ -99,7 +99,7 @@ const AnimeSearch = () => {
       <h1 className="m-2 font-bold text-4xl text-center">
         Anime Recommendation System
       </h1>
-      <p className="mx-6 text-center"> Type in an anime below, select it, and and we'll find similar anime for you!</p>
+      <p className="mx-6 text-center"> Type in an anime below, select it, and and we&apos;ll find similar anime for you!</p>
       <div className=" relative mb-8 max-w-[md] mt-2">
         <input
           type="text"
